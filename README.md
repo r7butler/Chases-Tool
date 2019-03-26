@@ -8,12 +8,15 @@ Again, you can just click on it and github will display it.
 
 The file called Original_Data.csv is one of the dataframes we used to build the report. 
 It is also the same as the first tab of the Infauna_QC_B13_OCSD.xlsm excel workbook.
+You can click on it and github will display it.
 
 The file called QC_Data.csv is the other dataframe we used to build the report. 
 It is also the same as the second tab of the Infauna_QC_B13_OCSD.xlsm excel workbook.
+You can click on it and github will display it.
 
 The file called Chases_Original_Discrepancy_Report.csv is the original discrepancy report that was given to us and which was created by Chase's excel tool. It is also the same as the third tab of the Infauna_QC_B13_OCSD.xlsm excel workbook.
+You can click on it and github will display it.
 
 The file called Infauna_QC_B13_OCSD.xlsm is the original initial and QC Data used to build the report that we created. 
 This excel workbook also contains the original output from Chase's actual tool that was built in excel (the 3rd tab, called Discrepancy_Report). 
-This file needs to be downloaded.
+You cannot click to display it. This file needs to be downloaded.
