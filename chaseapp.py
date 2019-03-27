@@ -3,14 +3,14 @@ from sqlalchemy import create_engine
 import numpy as np
 
 print 'reading in initial data'
-initial = pd.read_excel("../data/Infauna_QC_B13_OCSD.xlsm", sheet_name = 'Original_Data')
+initial = pd.read_excel("/nfauna_QC_B13_OCSD.xlsm", sheet_name = 'Original_Data')
 
 print 'reading in the QC data'
-qc = pd.read_excel("../data/Infauna_QC_B13_OCSD.xlsm", sheet_name = 'QC_Data')
+qc = pd.read_excel("Infauna_QC_B13_OCSD.xlsm", sheet_name = 'QC_Data')
 qc.rename(columns={" SITE": "SITE"}, inplace = True)
 
 print 'reading in the original discrepancy report'
-original_report = pd.read_excel("../data/Infauna_QC_B13_OCSD.xlsm", sheet_name = 'Discrepancy_Report')
+original_report = pd.read_excel("Infauna_QC_B13_OCSD.xlsm", sheet_name = 'Discrepancy_Report')
 
 
 print 'performing merge'
@@ -130,13 +130,13 @@ for row in rows - original_rows:
 
 
 
-'''
-initial.to_csv("../Output/InitialData.csv")
-qc.to_csv("../Output/QCData.csv")
-output.to_csv("../Output/DiscrepancyReport-Python.csv")
-sorted_original_report.to_csv("../Output/DiscrepancyReport-Original-Sorted.csv")
-original_report.to_csv("../Output/DiscrepancyReport-Original.csv")
-'''
+
+initial.to_csv("InitialData.csv")
+qc.to_csv("QCData.csv")
+output.to_csv("DiscrepancyReport-Python.csv")
+sorted_original_report.to_csv("DiscrepancyReport-Original-Sorted.csv")
+original_report.to_csv("DiscrepancyReport-Original.csv")
+
 
 
 
