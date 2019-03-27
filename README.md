@@ -20,3 +20,5 @@ You can click on it and github will display it.
 The file called Infauna_QC_B13_OCSD.xlsm is the original initial and QC Data used to build the report that we created. 
 This excel workbook also contains the original output from Chase's actual tool that was built in excel (the 3rd tab, called Discrepancy_Report). 
 You cannot click to display it. This file needs to be downloaded.
+
+chaseapp.py is the original python script that I worked with to create all this stuff.
